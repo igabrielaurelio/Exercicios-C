@@ -1,1 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+int main() {
+	
+	int n, i, r=1;
+	
+	printf("Escreva um numero qualquer positivo e inteiro:\n");
+		scanf("%d", &n);
+	
+	if(n<0){
+		
+		printf("Tem que ser um numero positivo\n");
+		return 0;
+		
+	} else{
+	
+		
+	for(i=1;i<=n;i++){
+		
+		r *= i;	
+	}
+}
+printf("O fatorial do numero %d eh igual a %d\n", n, r);
+	return 0;
+}
